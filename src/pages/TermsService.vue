@@ -252,6 +252,6 @@
 <style scoped>
 .terms {
     background: white;
-    margin: 35px;
+    padding: 35px;
 }
 </style>

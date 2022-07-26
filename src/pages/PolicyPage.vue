@@ -7,6 +7,6 @@
 <style scoped>
 #policy {
     background: white;
-    margin: 35px 30px 35px 30px;
+    padding: 35px;
 }
 </style>
