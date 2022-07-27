@@ -43,8 +43,8 @@ export default {
   data: function () {
     return {
       RocketJSON: RocketJSON,
-      contact: "flowproxyteam@gmail.com",
-      contactLink: "mailto:flowproxyteam@gmail.com"
+      contact: "waterproxyteam@gmail.com",
+      contactLink: "mailto:waterproxyteam@gmail.com"
     };
   },
 };
