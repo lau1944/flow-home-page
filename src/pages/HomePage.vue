@@ -6,7 +6,7 @@
           <div class="title">Flow加速器</div>
         </div>
       </el-header>
-      <el-main>
+      <el-main class="main">
         <Vue3Lottie :animationData="RocketJSON" :height="200" :width="200" />
         <div class="des">
           <div>一键回国 纯净体验</div>
@@ -27,6 +27,12 @@
           </a>
         </div>
       </el-main>
+      <el-footer>
+        <div class="contact">
+          <div style="padding-right: 10px"> 联系方式 </div>
+          <a :href="contactLink" style="color: wheat">{{ contact }}</a>
+        </div>
+      </el-footer>
     </el-container>
   </div>
 </template>
@@ -37,6 +43,8 @@ export default {
   data: function () {
     return {
       RocketJSON: RocketJSON,
+      contact: "flowproxyteam@gmail.com",
+      contactLink: "mailto:flowproxyteam@gmail.com"
     };
   },
 };
@@ -45,6 +53,10 @@ export default {
 <style scoped>
 #home {
   padding: 25px;
+}
+
+.main {
+  height: 700px;
 }
 
 .header {
@@ -98,5 +110,14 @@ export default {
   cursor: pointer;
   background: gray;
   opacity: 0.8;
+}
+
+.contact {
+  min-width: 100%;
+  display: flex;
+  margin: 25px 0 25px 0;
+  justify-content: center;
+  color: wheat;
+  font-size: 12px;
 }
 </style>
