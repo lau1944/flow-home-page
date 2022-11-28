@@ -15,7 +15,7 @@
         <div class="download">
           <a
             class="download-container"
-            :href="'https://apps.apple.com/app/id1636165585'"
+            :href="'https://apps.apple.com/app/id1641117217'"
           >
             App Store
           </a>
