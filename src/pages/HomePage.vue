@@ -15,7 +15,7 @@
         <div class="download">
           <a
             class="download-container"
-            :href="'https://apps.apple.com/app/id1636165585'"
+            @click="toIos"
           >
             App Store
           </a>
@@ -47,6 +47,11 @@ export default {
       contactLink: "mailto:waterproxyteam@gmail.com"
     };
   },
+  methods: {
+    toIos: function() {
+      this.$router.push('/ios');
+    }
+  }
 };
 </script>
 

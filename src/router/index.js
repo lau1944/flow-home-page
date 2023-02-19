@@ -9,6 +9,9 @@ const routes = [
     },
     {
         path: '/terms', name: 'Terms', component: () => import('@/pages/TermsService.vue')
+    },
+    {
+        path: '/ios', name: 'Ios', component: () => import('@/pages/AppleDownload.vue')
     }
 ]
 
