@@ -3,7 +3,7 @@
     <el-container>
       <el-header>
         <div class="header">
-          <div class="title">Flow加速器</div>
+          <div class="title">Light加速器</div>
         </div>
       </el-header>
       <el-main class="main">
