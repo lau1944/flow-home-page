@@ -8,7 +8,7 @@
     <el-main id="main">
       <div id="des-text">请登录外区苹果账号</div>
       <div id="timer">还有 {{ time }} 秒跳转</div>
-      <a id="link" ref="link" :href="'https://apps.apple.com/app/id1636165585'" target="_blank"> </a>
+      <a id="link" ref="link" :href="'https://apps.apple.com/app/id1641117217'"> </a>
     </el-main>
   </div>
 </template>
